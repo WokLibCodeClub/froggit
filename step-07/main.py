@@ -39,7 +39,7 @@ def frog2_reset(): frog_reset(frog2)
 def frog3_reset(): frog_reset(frog3)
 def frog4_reset(): frog_reset(frog4)
 
-
+   
 def on_mouse_down(pos):
     if frog1.collidepoint(pos):
             frog_hit(frog1)
