@@ -23,4 +23,6 @@ def draw():
 ```
     This passes the RGB value to the screen object's fill method, This sets the colour to a light blue.
 
+[Go to step 02](../step-02)
+
 
