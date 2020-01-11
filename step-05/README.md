@@ -10,7 +10,7 @@ def on_mouse_down(pos):
 
 3. This function is passed a parameter called pos - this is the position of the mouse at the time of mouse down. We determine if this position is within the frog, if it is we will call a new function called frog_hit
 ``` 
- def on_mouse_down(pos):
+def on_mouse_down(pos):
     if frog.collidepoint(pos):
         frog_hit()
 ```
@@ -20,7 +20,7 @@ def on_mouse_down(pos):
 ```
 5. Create a new function called frog_hit. Set the image of the frog to frog_dead, and set is_alive to False.  
 ```
- def frog_hit():  
+def frog_hit():  
     frog.is_alive = False
     frog.image = "frog_dead"
 ```

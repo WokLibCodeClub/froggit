@@ -9,7 +9,7 @@ frog1 = Actor("frog1")
 frog2 = Actor("frog1")
 frog3 = Actor("frog1")
 frog4 = Actor("frog1")
-frogs = [frog1,frog2,frog3,frog4]
+frogs = [frog1, frog2, frog3, frog4]
 
 for frog in frogs:
     frog.pos = (0, -500)
@@ -42,17 +42,17 @@ def frog4_reset(): frog_reset(frog4)
     
 def on_mouse_down(pos):
     if frog1.collidepoint(pos):
-            frog_hit(frog1)
-            clock.schedule_unique(frog1_reset,1.0)
+        frog_hit(frog1)
+        clock.schedule_unique(frog1_reset,1.0)
     elif frog2.collidepoint(pos):
-            frog_hit(frog2)
-            clock.schedule_unique(frog2_reset,1.0)
+        frog_hit(frog2)
+        clock.schedule_unique(frog2_reset,1.0)
     elif frog3.collidepoint(pos):
-            frog_hit(frog3)
-            clock.schedule_unique(frog3_reset,1.0)
+        frog_hit(frog3)
+        clock.schedule_unique(frog3_reset,1.0)
     elif frog4.collidepoint(pos):
-            frog_hit(frog4)
-            clock.schedule_unique(frog4_reset,1.0)
+        frog_hit(frog4)
+        clock.schedule_unique(frog4_reset,1.0)
 
         
 def frog_hit(frog):
