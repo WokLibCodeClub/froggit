@@ -39,18 +39,18 @@ if frog.collidepoint(pos):
 It checks whether the position of the mouse is within the frog.
 So now, instead we will need to check each frog, unfortunately it's not possible to do this in a loop, so we need to replace the above with this :
 ```
-if frog1.collidepoint(pos):
-    frog_hit(frog1)
-    clock.schedule_unique(frog1_reset,1.0)
-elif frog2.collidepoint(pos):
-    frog_hit(frog2)
-    clock.schedule_unique(frog2_reset,1.0)
-elif frog3.collidepoint(pos):
-    frog_hit(frog3)
-    clock.schedule_unique(frog3_reset,1.0)
-elif frog4.collidepoint(pos):
-    frog_hit(frog4)
-    clock.schedule_unique(frog4_reset,1.0)
+    if frog1.collidepoint(pos):
+        frog_hit(frog1)
+        clock.schedule_unique(frog1_reset,1.0)
+    elif frog2.collidepoint(pos):
+        frog_hit(frog2)
+        clock.schedule_unique(frog2_reset,1.0)
+    elif frog3.collidepoint(pos):
+        frog_hit(frog3)
+        clock.schedule_unique(frog3_reset,1.0)
+    elif frog4.collidepoint(pos):
+        frog_hit(frog4)
+        clock.schedule_unique(frog4_reset,1.0)
 ```
 7. As you can see above, each frog now has it's own reset function. So we need to add the following code, below the existing frog_reset function.
 ```
