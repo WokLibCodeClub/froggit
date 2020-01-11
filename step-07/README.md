@@ -34,7 +34,7 @@ for frog in frogs:
 6. We now need to modify the logic within the mouse_down function. Currently it looks like this :
 ```
 if frog.collidepoint(pos):
-        frog_hit()
+    frog_hit()
 ```
 It checks whether the position of the mouse is within the frog.
 So now, instead we will need to check each frog, unfortunately it's not possible to do this in a loop, so we need to replace the above with this :
