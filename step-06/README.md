@@ -31,4 +31,5 @@ The same score variable is usded throughout the program, so we need to decalte a
 global score
 ```
 
+[Go to step 07](../step-07)
 

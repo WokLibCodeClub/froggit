@@ -40,6 +40,9 @@ def frog_hop():
   frog.image = "frog" + str(int(frog.frame))
 ```
 8. Test the new code
+
+
+[Go to step 04](../step-04)
  
 
 

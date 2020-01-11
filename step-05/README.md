@@ -48,6 +48,7 @@ frog.is_alive = True
 8. Test the code
 
 
+[Go to step 06](../step-06)
 
 
 

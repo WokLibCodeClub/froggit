@@ -35,5 +35,8 @@ frog.pos = (0, -500)
 9. Now test the code
 
 
+[Go to step 05](../step-05)
+
+
 
 

@@ -42,6 +42,9 @@ modify the initial positioning of the frog.
 13. Now test the code   
 
 
+[Go to step 03](../step-03)
+
+
 
 
 
